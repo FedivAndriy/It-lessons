@@ -1,0 +1,58 @@
+.menu {
+  background: darkgray;
+  -webkit-box-shadow: 0px 0px 3px;
+          box-shadow: 0px 0px 3px;
+}
+
+.menu .menu-button button {
+  background: #777777;
+}
+
+.menu .menu-button button a {
+  color: white;
+}
+
+.menu .menu-button button button:hover {
+  background: white;
+}
+
+.body {
+  background: #777777;
+}
+
+.body .footer {
+  margin-top: 100px;
+}
+
+.body .footer button {
+  background: #979797;
+}
+
+.body .footer button a {
+  color: white;
+}
+
+.body .footer button a p {
+  color: white;
+}
+
+.body .footer button button:hover {
+  background: white;
+}
+
+.a-b {
+  background: #550000;
+}
+
+.a-b a {
+  color: white;
+}
+
+.change-theme[data-theme="dark"] {
+  display: none;
+}
+
+.change-theme[data-theme="light"] {
+  display: block;
+}
+/*# sourceMappingURL=theme-dark.css.map */

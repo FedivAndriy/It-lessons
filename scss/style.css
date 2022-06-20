@@ -1,0 +1,162 @@
+.container {
+  width: 100%;
+}
+
+.menu {
+  background: lightgrey;
+  border-radius: 10px 10px 0 0;
+  -webkit-box-shadow: 0px 0px 3px;
+          box-shadow: 0px 0px 3px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
+}
+
+.menu .menu-button button {
+  background: #aaaaaa;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+  margin-right: 50px;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.menu .menu-button button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.menu .menu-button button p {
+  font-size: 12px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.menu .menu-button button button:hover {
+  background: black;
+}
+
+.menu-theme {
+  margin-left: 400px;
+}
+
+.menu-logo {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.body {
+  background: silver;
+  border-radius: 0 0 10px 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.body .body-text {
+  margin-top: 75px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body .body-text h1 {
+  font-size: 42px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.body .body-text p {
+  font-size: 24px;
+}
+
+.body .footer {
+  margin-top: 100px;
+}
+
+.body .footer button {
+  background: #aaaaaa;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  margin-right: 20px;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.body .footer button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+  font-size: 12px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body .footer button a img {
+  margin: 0 auto;
+}
+
+.body .footer button a p {
+  font-size: 18px;
+  color: black;
+  font-family: 'Balsamiq Sans', cursive;
+  margin: 0 auto;
+}
+
+.body .footer button button:hover {
+  background: black;
+}
+
+.body .body-image {
+  margin-top: 90px;
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.a-b {
+  background: #550000;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.a-b a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+svg {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

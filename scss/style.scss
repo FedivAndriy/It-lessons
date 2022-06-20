@@ -1,0 +1,141 @@
+.container{
+    width: 100%;
+}
+.menu{
+    background: lightgrey;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 0px 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 0;
+
+.menu-button{
+    button{
+            background: rgba($color: #aaaaaa, $alpha: 1.0);
+            border: 1px solid transparent;
+            border-radius: 10px;
+            width: 100px;
+            height: 35px;
+            margin-right: 50px;
+            position: relative;
+            transition: 0.5s;
+            cursor: pointer;
+           
+            a{
+                text-decoration: none;
+                color: black;
+                font-weight: 200;
+                font-size: 12px;
+            }
+
+            p{
+                font-size: 12px;
+                font-family: 'Balsamiq Sans', cursive;
+            }
+
+    button:hover{
+            background: black;
+        }
+    }
+}
+}
+.menu-theme{
+    margin-left: 400px;
+
+}
+.menu-logo{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.body{
+    background: rgba($color: #c0c0c0, $alpha: 1.0);
+    border-radius: 0 0 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .body-text{
+        margin-top: 75px;
+        align-items: center;
+
+        h1{
+            font-size: 42px;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+
+        p{
+            font-size: 24px;
+        }
+    }
+
+    .footer{
+        margin-top: 100px;
+        
+        button{
+            background: rgba($color: #aaaaaa, $alpha: 1.0);
+            border: 1px solid transparent;
+            border-radius: 10px;
+            width: 200px;
+            height: 50px;
+            margin-right: 20px;
+            position: relative;
+            transition: 0.5s;
+            cursor: pointer;
+            
+           
+            a{
+                text-decoration: none;
+                color: black;
+                font-weight: 200;
+                font-size: 12px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+                
+                img{
+                    margin:0 auto;
+                }
+
+                p{
+                    font-size: 18px;
+                    color: black;
+                    font-family: 'Balsamiq Sans', cursive;  
+                    margin: 0 auto;
+                }
+            }
+
+    button:hover{
+            background: black;
+        }
+}
+    }
+
+    .body-image{
+        margin-top: 90px;
+        margin-bottom: 20px;
+        align-items: center;
+        text-align: center;
+    }
+}
+.a-b{
+    background: rgba($color: #550000, $alpha: 1.0);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+    }
+}
+svg{
+    cursor: pointer;
+}
